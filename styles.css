@@ -78,8 +78,8 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     background-image: url('images/Red-Roses-Bunch-24.jpg'); /* Replace with your image */
     background-size: cover;
     animation: fadeInOut 20s linear forwards;
