@@ -9,10 +9,11 @@
 <body>
     <h1>Happy Birthday!</h1>
     <nav>
-        <a href="#cake" onclick="showCake()" ontouchstart="showCake()">Cake</a> |
-        <a href="#card" onclick="showCard()" ontouchstart="showCard()">Card</a> |
-        <a href="#message" onclick="showMessage()" ontouchstart="showMessage()">Message</a>
+        <a href="#cake" onclick="showCake()" ontouchstart="showCake()" ontouchend="">Cake</a> |
+        <a href="#card" onclick="showCard()" ontouchstart="showCard()" ontouchend="">Card</a> |
+        <a href="#message" onclick="showMessage()" ontouchstart="showMessage()" ontouchend="">Message</a>
     </nav>
+    
     <!-- <div class="floating">
         💖 🌸 💖 🌸 💖
     </div> -->
@@ -25,7 +26,8 @@
     <div id="cake">
         <h2>Make a wish and blow out the candles!</h2>
         <img src="https://images.unsplash.com/photo-1545696563-af8f6ec2295a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D" alt="Birthday Cake">
-        <button onclick="cutCake()" ontouchstart="cutCake()">Cut the Cake</button>
+        <button onclick="cutCake()" ontouchstart="cutCake()" ontouchend="">Cut the Cake</button>
+
 
     </div>
 
